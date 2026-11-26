@@ -9,9 +9,14 @@ export default defineNuxtConfig({
     enabled: true
   },
 
-  css: ['~/assets/css/main.css'],
+  css: [
+    '@fontsource-variable/vazirmatn',
+    '~/assets/css/main.css'
+  ],
 
   ui: {
+    colorMode: false,
+    fonts: false,
     eslint: {
       rules: {
         'no-unknown-classes': 'error',
@@ -21,8 +26,9 @@ export default defineNuxtConfig({
     }
   },
 
-  routeRules: {
-    '/': { prerender: true }
+  runtimeConfig: {
+    // Server-only. Override with NUXT_API_BASE_URL.
+    apiBaseUrl: 'https://api.moallem.sch.ir'
   },
 
   compatibilityDate: '2026-06-30',
