@@ -9,16 +9,15 @@ pnpm install
 pnpm dev
 ```
 
-Set `NUXT_API_BASE_URL` to point at another API host (see `.env.example`).
+Statistics come from `https://api.moallem.sch.ir/hire/v1/job/statistics/`. Set `NUXT_PUBLIC_API_BASE_URL` to use another host.
 
 ## Structure
 
 | Path | Responsibility |
 | --- | --- |
-| `server/api/job-statistics.get.ts` | Proxies, validates, maps and caches (60s) the statistics API |
-| `shared/types/` | Types shared by server and app |
+| `app/types/` | API response types |
 | `app/composables/useJobStatistics.ts` | Data access for components |
-| `app/components/home/` | Page sections |
+| `app/components/` | Header and page sections |
 | `app/app.config.ts` | Theme colors and external links |
 
 ## Checks

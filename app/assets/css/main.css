@@ -3,13 +3,4 @@
 
 @theme static {
   --font-sans: 'Vazirmatn Variable', Tahoma, sans-serif;
-
-  --color-stat-applications: #9d174d;
-  --color-stat-positions: #db2777;
-  --color-stat-accepted: #d97706;
-}
-
-:root {
-  --ui-primary: var(--ui-color-primary-700);
-  --ui-secondary: var(--ui-color-secondary-700);
 }

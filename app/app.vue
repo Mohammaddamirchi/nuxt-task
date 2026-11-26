@@ -24,8 +24,16 @@ useSeoMeta({
 
 <template>
   <UApp :locale="fa_ir">
+    <AppHeader />
+
     <UMain>
       <NuxtPage />
     </UMain>
+
+    <UFooter>
+      <p class="text-sm text-muted">
+        مجتمع فرهنگی آموزشی پسرانه معلم
+      </p>
+    </UFooter>
   </UApp>
 </template>
