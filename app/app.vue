@@ -1,25 +1,25 @@
 <script setup lang="ts">
-import { fa_ir } from '@nuxt/ui/locale'
+import { fa_ir } from "@nuxt/ui/locale";
 
 useHead({
+  meta: [{ name: "viewport", content: "width=device-width, initial-scale=1" }],
+
+  link: [{ rel: "icon", href: "/favicon.ico" }],
   htmlAttrs: {
     lang: fa_ir.code,
-    dir: fa_ir.dir
+    dir: fa_ir.dir,
   },
-  link: [
-    { rel: 'icon', href: '/favicon.ico' }
-  ]
-})
+});
 
-const title = 'همکاری با مجتمع فرهنگی آموزشی معلم'
-const description = 'فرصت‌های شغلی را ببینید و برای همکاری درخواست دهید.'
+const title = "همکاری با مجتمع فرهنگی آموزشی معلم";
+const description = "فرصت‌های شغلی را ببینید و برای همکاری درخواست دهید.";
 
 useSeoMeta({
   title,
   description,
   ogTitle: title,
-  ogDescription: description
-})
+  ogDescription: description,
+});
 </script>
 
 <template>
@@ -31,9 +31,7 @@ useSeoMeta({
     </UMain>
 
     <UFooter>
-      <p class="text-sm text-muted">
-        مجتمع فرهنگی آموزشی پسرانه معلم
-      </p>
+      <p class="text-sm text-muted">مجتمع فرهنگی آموزشی پسرانه معلم</p>
     </UFooter>
   </UApp>
 </template>

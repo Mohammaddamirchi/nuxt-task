@@ -28,7 +28,6 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      // Override with NUXT_PUBLIC_API_BASE_URL.
       apiBaseUrl: 'https://api.moallem.sch.ir'
     }
   },

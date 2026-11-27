@@ -7,8 +7,7 @@ export default defineAppConfig({
   },
   links: {
     jobs: 'https://hire.moallem.sch.ir/user/jobs',
-    // TODO: replace with the exact register / login URLs.
-    register: 'https://hire.moallem.sch.ir/',
-    login: 'https://hire.moallem.sch.ir/'
+    register: 'https://hire.moallem.sch.ir/login',
+    login: 'https://hire.moallem.sch.ir/login'
   }
 })
