@@ -1,9 +1,5 @@
 allowBuilds:
-  '@parcel/watcher': false
-  '@tailwindcss/oxide': false
-  esbuild: false
-  unrs-resolver: false
-  vue-demi: false
-
+  esbuild: true
+  vue-demi: true
 minimumReleaseAgeExclude:
   - '@nuxt/ui'
